@@ -1,15 +1,23 @@
-# 🍺 Homebrew Tap
+# 🍺 Personal Homebrew Tap
 
 ## How do I install these formulae?
-`brew install dnlggr/tap/<formula>`
 
-Or `brew tap dnlggr/tap` and then `brew install <formula>`.
+Using a formula's fully qualified name:
 
-Or install via URL (which will not receive updates):
+```
+brew install dnlggr/tap/<formula>
+```
+
+Or by first tapping this repo and then installing a formula as usual:
+
+```
+brew tap dnlggr/tap
+brew install <formula>
+```
+
+Or by installing a formula via URL (which will not receive updates):
 
 ```
 brew install https://raw.githubusercontent.com/dnlggr/homebrew-tap/master/Formula/<formula>.rb
 ```
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
